@@ -106,3 +106,23 @@ footer ul li a {
     color: rgba(0, 0, 0, 0.815);
 }
 
+@media (max-width: 668px) {
+    #main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .minion-img {
+        width: 40vw;
+    }
+
+    #input-text,
+    #output-text {
+        width: 100%;
+        text-align: left;
+    }
+}
